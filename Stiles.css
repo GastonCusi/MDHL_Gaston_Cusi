@@ -2,3 +2,15 @@
   font-family: "Roboto Condensed", sans-serif;
   background-color: #ff69b4;
 }
+
+/* Cambiando el tamaño de las imágenes */
+
+.logo__img {
+  height: 200px;
+  width: 200px;
+}
+
+.Hockey__img {
+  height: 100vh;
+  width: 100vw;
+}
