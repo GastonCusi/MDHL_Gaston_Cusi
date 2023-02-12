@@ -1,18 +1,69 @@
 * {
   font-family: "Roboto Condensed", sans-serif;
-  background-color: #ff69b4;
 }
 
 /* Cambiando el tamaño de las imágenes */
 
+.container {
+  position: relative;
+  display: inline-block;
+}
+
+.container__img {
+  display: block;
+  max-width: 99.7%;
+  height: auto;
+  border: 2px solid #000000;
+}
+
+.container__nav {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.container__ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.container__li {
+  display: inline-block;
+  margin: 10px;
+}
+
+.container__a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 5px 10px;
+  background-color: #3b83bd;
+}
+
 .logo__img {
-  height: 200px;
-  width: 200px;
+  height: 100px;
+  width: 100px;
+  float: left;
+  margin-right: 10px;
 }
 
-.navegador {
-  background-image: url(Trabajo/Imagenes/design1_image1.jpg);
+.Subtitle {
+  display: block;
+  max-width: 100%;
+  border: 2px solid #000000;
 }
 
-.navegador__navegador {
+.eventos {
+  margin-left: 10px;
+  padding-left: 200px;
+}
+
+.eventos__fecha {
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.eventos__actividad {
+  text-indent: 20px;
+  font-size: larger;
 }
