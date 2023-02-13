@@ -1,8 +1,25 @@
 * {
   font-family: "Roboto Condensed", sans-serif;
+  transition: all 0.5s;
 }
 
 /* Cambiando el tamaño de las imágenes */
+
+header {
+  position: relative;
+  text-align: center;
+  width: 80%;
+  left: 10%;
+}
+
+h1 {
+  font-size: 5rem;
+  font-weight: bolder;
+  position: relative;
+  top: 0.25rem;
+  width: 70vw;
+  height: 5vh;
+}
 
 .container {
   position: relative;
@@ -10,34 +27,49 @@
 }
 
 .container__img {
-  display: block;
-  max-width: 99.7%;
-  height: auto;
-  border: 2px solid #000000;
+  position: relative;
+  width: 100%;
+  z-index: -1;
+  align-content: center;
+  top: 10%;
 }
 
-.container__nav {
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-
-.container__ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.container__li {
+/* .contenedor__a {
   display: inline-block;
-  margin: 10px;
-}
-
-.container__a {
+  background-color: #000000;
   color: #ffffff;
   text-decoration: none;
-  padding: 5px 10px;
-  background-color: #3b83bd;
+  border-radius: 0.3rem;
+  width: 8rem;
+  text-align: center;
+  font-size: 1.2rem;
+} */
+
+.contenedor__a {
+  display: inline-block;
+  position: relative;
+  background-color: #000000;
+  text-decoration: none;
+  padding: 0.1rem;
+  margin: 0.4rem;
+  color: #ffffff;
+  border-radius: 0.4rem;
+  width: 8rem;
+  text-align: center;
+  font-size: 1.2rem;
+  top: 1rem;
+  left: 30%;
+}
+
+.contenedor__a:hover,
+.contenedor__a[href="#"]:hover {
+  background-color: #ff69b4;
+  color: #ffffff;
+  transform: scale(1.2);
+}
+
+.contenedor__a[href="#"] {
+  background-color: #d2691e;
 }
 
 .logo__img {
