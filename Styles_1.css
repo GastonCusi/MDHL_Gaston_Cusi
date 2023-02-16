@@ -30,8 +30,8 @@ nav {
 }
 
 nav a {
-  height: 2.5rem;
-  width: 4rem;
+  height: 4rem;
+  width: 8rem;
   background-color: #dfafeba9;
   color: #252d35;
   text-decoration: none;
@@ -39,7 +39,7 @@ nav a {
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 15px;
+  border-radius: 20px;
 }
 
 main {
@@ -71,28 +71,92 @@ section {
   color: #ded9d6;
 }
 
+.primer-parrafo {
+  color: #ffffff;
+  font-size: 30px;
+}
+
 .tabla {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
   margin: 1rem;
   padding: 2rem;
   border-collapse: collapse;
-  width: 75vw;
-  height: 75vh;
+  max-width: 80vw;
+  height: 80vh;
 }
 
 th {
   color: #ded9d6;
   border: 1px solid #ded9d6;
   justify-content: center;
+  font-size: 2vw;
 }
 
 .descripciones {
   font-size: 1.2rem;
 }
 
-footer {
-  min-width: 5vh;
-  background-color: #edece8;
+.eventos {
+  font-size: 20px;
+  padding: 1rem;
+  margin: 5px;
+}
+
+.eventos__info {
+  color: #ded9d6;
+  font-weight: 900;
+}
+
+.eventos__actividad {
+  color: #010102;
+}
+
+.titulo-2 {
+  font-weight: bold;
+  color: #010102;
+  text-decoration: underline;
+}
+
+.descricion-2 {
+  color: #afafc9;
+}
+
+.titulo {
+  font-weight: bolder;
+  color: #010102;
+}
+.rules {
+  color: #ded9d6;
+  font-weight: 800;
+}
+
+iframe {
+  width: 40px;
+  height: 40px;
+}
+
+form {
+  font-size: 3vh;
+  color: #ded9d6;
+}
+
+fieldset {
+  padding: 20px;
+  margin: 20px;
+}
+legend {
+  text-align: center;
+  font-weight: bolder;
+  text-shadow: #dfafeba9;
+  color: #010102;
+}
+
+.p {
+  color: #010102;
+}
+
+.submit {
+  display: flex;
+  align-self: center;
 }
