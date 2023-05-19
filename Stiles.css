@@ -1,0 +1,90 @@
+* {
+  font-family: "Roboto Condensed", sans-serif;
+  transition: all 0.5s;
+}
+
+/* Cambiando el tamaño de las imágenes */
+
+header {
+  position: relative;
+  text-align: center;
+  width: 80%;
+  left: 10%;
+}
+
+h1 {
+  font-size: 5rem;
+  font-weight: bolder;
+  position: relative;
+  top: 0.25rem;
+  width: 70vw;
+  height: 5vh;
+}
+
+.container {
+  position: relative;
+  display: inline-block;
+}
+
+.container__img {
+  position: relative;
+  width: 100%;
+  z-index: -1;
+  align-content: center;
+  top: 10%;
+}
+
+.contenedor__a {
+  display: inline-block;
+  position: relative;
+  background-color: #000000;
+  text-decoration: none;
+  padding: 0.1rem;
+  margin: 0.4rem;
+  color: #ffffff;
+  border-radius: 0.4rem;
+  width: 8rem;
+  text-align: center;
+  font-size: 1.2rem;
+  top: 1rem;
+  left: 30%;
+}
+
+.contenedor__a:hover,
+.contenedor__a[href="#"]:hover {
+  background-color: #ff69b4;
+  color: #ffffff;
+  transform: scale(1.2);
+}
+
+.contenedor__a[href="#"] {
+  background-color: #d2691e;
+}
+
+.logo__img {
+  height: 100px;
+  width: 100px;
+  float: left;
+  margin-right: 10px;
+}
+
+.Subtitle {
+  display: block;
+  max-width: 100%;
+  border: 2px solid #000000;
+}
+
+.eventos {
+  margin-left: 10px;
+  padding-left: 200px;
+}
+
+.eventos__fecha {
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.eventos__actividad {
+  text-indent: 20px;
+  font-size: larger;
+}
